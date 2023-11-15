@@ -2,7 +2,7 @@
 σ_estado = 'En tránsito' (paquetes)
 
 2. Listar todos los camioneros y la capacidad de su camión:
-π_nombre, apellido, capacidadLt (usuarios ⨝ usuarios.idUser = camion.chofer σ_roles = 'Camionero')
+π_nombre, apellido, capacidadLt (usuarios ⨝ usuarios.idUser = camion.chofer σ_roles = '2')
 
 3. Obtener las sesiones de login creadas en agosto de 2023:
 σ_created_at en Agosto 2023 (loginSessions)
