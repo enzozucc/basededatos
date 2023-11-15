@@ -65,9 +65,9 @@ INSERT INTO `proyecto2023`.`roles`
 `descRol`)
 
 VALUES
-(1, 'Administrador'),
-(3, 'Usuario'),
-(4, 'Camionero');
+(4, 'Administrador'),
+(1, 'Usuario'),
+(2, 'Camionero');
 
 INSERT INTO `proyecto2023`.`statusEnvio`
 (`idStatus`,
@@ -91,6 +91,6 @@ INSERT INTO `proyecto2023`.`usuarios`
 
 VALUES
 
-(1, 'juanperez', 'pass1234', 'Juan', 'Pérez', 'juanperez@gmail.com', '092345678', 'Administrador', '2023-08-21 13:46:00'),
-(2, 'anamartinez', 'ana7890', 'Ana', 'Martínez', 'anamartinez@gmail.com', '099234569', 'Usuario', '2023-09-16 09:05:00'),
-(3, 'luisgonzalez', 'luis4567', 'Luis', 'González', 'luisgonzalez@gmail.com', '096534680', 'Camionero', '2023-08-11 11:30:00');
+(1, 'juanperez', 'pass1234', 'Juan', 'Pérez', 'juanperez@gmail.com', '092345678', '4', '2023-08-21 13:46:00'),
+(2, 'anamartinez', 'ana7890', 'Ana', 'Martínez', 'anamartinez@gmail.com', '099234569', '1', '2023-09-16 09:05:00'),
+(3, 'luisgonzalez', 'luis4567', 'Luis', 'González', 'luisgonzalez@gmail.com', '096534680', '2', '2023-08-11 11:30:00');
